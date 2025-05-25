@@ -1,0 +1,33 @@
+.create {
+  // .create__item
+
+  &__item {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    margin-bottom: 14px;
+  }
+
+  // .create__item-title
+
+  &__item-title {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 3px;
+  }
+
+  &__item-text {
+    margin-bottom: 10px;
+    font-size: 13px;
+
+  }
+
+  // .create__item-input
+
+  &__item-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

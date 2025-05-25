@@ -1,0 +1,23 @@
+.noProject {
+  position: absolute;
+
+  top: 50%;
+  left: calc(50% + 275px / 2) ;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    max-width: 250px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba($color: #000000, $alpha: 0.8);
+  }
+}

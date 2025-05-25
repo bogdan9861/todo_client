@@ -1,0 +1,49 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    transition: margin-left 0.3s ease;
+  }
+
+  &__name {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  &__status {
+    font-size: 13px;
+    font-weight: 300;
+  }
+}
+
+.item.item--selected {
+  margin-left: 20px;
+}
+
+.item.item.item--selected .item__content {
+  margin-left: 10px;
+}
+
+.slide {
+  animation: slide 0.5s forwards 1;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

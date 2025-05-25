@@ -1,0 +1,28 @@
+.input_wrapper {
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+}
+
+.input_inner {
+  position: relative;
+}
+
+.input_img {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 21px;
+  height: 21px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 15px 15px 40px;
+  background-color: rgba($color: #fff, $alpha: 0.8);
+  border: 1px solid rgba($color: #000, $alpha: 0.5);
+  outline: none;
+  border-radius: 5px;
+}

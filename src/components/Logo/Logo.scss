@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0 11px;
+
+  &__img {
+    width: 60px;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 28px;
+    color: #42a4eb;
+
+    display: inline;
+
+    span {
+      color: #023eaf;
+      display: inline;
+      font-weight: 700;
+    }
+  }
+}

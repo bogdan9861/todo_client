@@ -1,0 +1,144 @@
+.login_wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.logo__wrapper {
+  position: absolute;
+  top: 120px
+}
+
+.login {
+  max-width: 360px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+
+  &__title {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 120%;
+    color: #4d505e;
+    display: flex;
+    margin-bottom: 14px;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  // .login__form
+
+  &__form {
+    width: 100%;
+  }
+
+  &__inner {
+    padding: 20px;
+    background-color: #f4f4f6;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  // .login__input
+
+  &__input-wrapper {
+    position: relative;
+  }
+
+  &__input-img {
+    position: absolute;
+
+    width: 23px;
+    height: 23px;
+    top: 10px;
+    left: 10px;
+  }
+
+  &__input {
+    width: 100%;
+    height: 44px;
+    padding: 0 14px 0 45px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+    color: rgba($color: #131313, $alpha: 1);
+
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+
+    &::placeholder {
+      font-weight: 500;
+      color: #baacbf;
+    }
+  }
+
+  // .login__btn
+
+  &__btn {
+    display: inline-block;
+    width: 100%;
+    height: 44px;
+    margin-top: 10px;
+    padding: 11px 22px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    background-color: #6788f3;
+    transition: 0.25s;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    user-select: none;
+    font-weight: 600;
+  }
+
+  // .login__text
+
+  &__link-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #a6acbf;
+
+    display: block;
+    text-align: center;
+  }
+
+  // .login__link
+
+  &__link {
+    color: #9cb1f7;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    display: inline-block;
+    height: max-content;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: 500;
+    font-variation-settings: "wght" 500;
+    line-height: 16px;
+    color: #d0d3dd;
+    text-align: center;
+  }
+}

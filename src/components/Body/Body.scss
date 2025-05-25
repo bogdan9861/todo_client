@@ -1,0 +1,58 @@
+.body {
+  width: 100%;
+  padding: 40px;
+  height: 100vh;
+  overflow-y: scroll;
+
+  transition: all 0.3s ease-out;
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__project-name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__project-name::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.fall {
+  animation: fall 0.5s forwards 1;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,25 @@
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px 0;
+
+  overflow-y: scroll;
+  height: 85%;
+  margin-bottom: 30px;
+
+  scroll-behavior: smooth;
+}
+
+.list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: transparent;
+}
