@@ -53,7 +53,7 @@ const CreateProjectModal = ({
     }
 
     try {
-      if (project) {
+      if (project && name) {
         data.append("id", project.id);
         await editProject(data).unwrap();
       } else {
