@@ -88,7 +88,7 @@ const CreateProjectModal = ({
         <div className="create__item">
           <h3 className="create__item-title">Цвет проекта</h3>
           <span className="create__item-text">
-            С каким цветом ассоциируется этоти проект? <br /> (не обязательно)
+            С каким цветом ассоциируется этот проект? <br /> (не обязательно)
           </span>
           <ColorPicker
             size="middle"
